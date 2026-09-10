@@ -1,6 +1,18 @@
-#include <iostream>
+#include <bits/stdc++.h>
+#include <string>
 
 int main() {
-    std::cout << "Starting leetcode..." << std::endl;
-    return 0;
+  int amount;
+  std::string words;
+  std::cin >> amount;
+  for (int i = 0; i < amount; i++) {
+    std::cin >> words;
+
+    if (words.size() > 10) {
+
+    } else {
+      std::cout << words;
+    }
+  }
+  return 0;
 }
